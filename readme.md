@@ -8,7 +8,7 @@ Using four cherry compatible switches, Player! provides dedicated keys for pausi
 ![](/Images/Player!_3D_KiCAD.png)
 ![](/Images/Player!_Assembled.jpg)
 
-V1.3 has made the Player! bigger to accommodate 4 mounting holes, which will be used to mount the PCB to a case. The otherwise empty space is covered in a tropical leaf pattern on the top copper layer; a number of changes have been made to improve the appearance, including the addition of the logo top centre of the board. The Player! will now include an ISP header for programming.
+V1.31 has made the Player! bigger to accommodate 4 mounting holes, which will be used to mount the PCB to a case. The otherwise empty space is covered in a tropical leaf pattern on the top copper layer; a number of changes have been made to improve the appearance, including the addition of the logo top centre of the board. The Player! will now include an ISP header for programming.
 
 # [Bill of Materials](https://octopart.com/bom-tool/iGNVRgwb)
 
@@ -31,8 +31,8 @@ Vial compatible firmware can be flashed to the Player! using the [player_vial.he
 
 Player! can now be configured and is now ready to use. The rotary encoder is rebound using the two circular icons on the top row, the switch integrated to the encoder uses the buttons below these icons.
 # Bootloader Information
-The Player! uses a usb bootloader which allows the ATMega328 to program itself with QMK, namely USBaspLoader. 
-The custom bootloader was adapted from [coseyfannitutti](https://github.com/coseyfannitutti)'s, changing a few pin definitions and changing the programmer choice/port definition for my setup. 
+The Player! uses a usb bootloader which allows the ATMega328 to program itself with QMK, namely [USBaspLoader](https://www.fischl.de/usbasp/). 
+
 
 * The bootloader is available [here](https://github.com/Johnboysmooth/USBaspLoader).
 * The instructions for setting up the build environment can be found in the readme.
